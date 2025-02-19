@@ -1,0 +1,45 @@
+.category-label {
+    color: #8d9197;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+h1 {
+    font-variation-settings: "wdth" 50;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+    &.last-updated-text {
+        color: #8d9197;
+    }
+}
+
+.article-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.column-layout {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 3rem;
+
+    :first-child {
+        flex: 3;
+    }
+
+    :last-child {
+        flex: 1;
+    }
+}
